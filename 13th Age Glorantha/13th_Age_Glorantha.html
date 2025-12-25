@@ -1309,7 +1309,7 @@
                         <div class="sheet-table-row">
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="Cannot attack.  Ends if you are attacked by an enemy." type="checkbox" class="sheet-earth" name="attr_condition-charm"/>
-                            &nbsp;Charmed
+                            &nbsp;Charm
                           </span>
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="DM-4 to all attacks" type="checkbox" class="sheet-earth" name="attr_condition-daze" value="@{cpv}"/>
@@ -1317,24 +1317,22 @@
                             &nbsp;Dazed
                           </span>
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
-                            &nbsp;<input title="DM-4 to all attacks and you may not use the Escalation die." type="checkbox" class="sheet-earth" name="attr_condition-fear" value="@{cpv}"/>
-                            <input type="number" name="attr_penalty-dazed" value="@{condition-daze}" disabled="true" style="display:none;"/>
+                            &nbsp;<input title="You are Dazed (click that box too!) and you may not use the Escalation die." type="checkbox" class="sheet-earth" name="attr_condition-fear" value="@{cpv}"/>
                             &nbsp;Fear
                           </span>
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
-                            &nbsp;<input title="Unconscious or asleep; DM-4 to all defenses (AC/PD/MD), can be target of a coup-de-grace." type="checkbox" class="sheet-earth" name="attr_condition-helpless"/>
-                            <input type="number" name="attr_penalty-weakened" value="@{condition-weak}" disabled="true" style="display:none;"/>
+                            &nbsp;<input title="Unconscious or asleep; You are Weakened (click that box too!) and can be target of a coup-de-grace." type="checkbox" class="sheet-earth" name="attr_condition-helpless"/>
                             &nbsp;Helpless
                           </span>
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="Cannot cast spells, use powers (not even kin powers), use limited-use abilities, or make attacks other than no-trigger attacks. You can move normally, but cannot use limited-use abilities/powers to move" type="checkbox" class="sheet-earth" name="attr_condition-hinder"/>
-                            &nbsp;Hindered
+                            &nbsp;Hinder
                           </span>
                         </div>
                         <div class="sheet-table-row">
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="You roll twice for all d20 rolls (attacks, saves, skill rolls) and use lower. Any power/ability w/additional d20s is canceled." type="checkbox" class="sheet-earth" name="attr_condition-shock"/>
-                            &nbsp;Shocked
+                            &nbsp;Shock
                           </span>
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="Cannot move, disengage, pop free, change position, or be moved by another. Teleport OK." type="checkbox" class="sheet-earth" name="attr_condition-stuck"/>
@@ -1343,7 +1341,7 @@
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="DM-4 to defenses (AC/PD/MD) and cannot take any actions. At start of your turn, hard save (16+) to take one action on your turn." type="checkbox" class="sheet-earth" name="attr_condition-stun" value="@{cpv}"/>
                             <input type="number" name="attr_penalty-stunned" value="@{condition-stun}" disabled="true" style="display:none;"/>
-                            &nbsp;Stunned
+                            &nbsp;Stun
                           </span>
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="When attacked, take bonus damage = 2x Level on a hit or miss. On a crit, 3x Level." type="checkbox" class="sheet-earth" name="attr_condition-vulnerable"/>
@@ -1352,7 +1350,7 @@
                           <span style="width:20%;" class="sheet-table-data sheet-bold sheet-italic sheet-table-padding sheet-left">
                             &nbsp;<input title="DM-4 to attacks and to defenses (AC/PD/MD)" type="checkbox" class="sheet-earth" name="attr_condition-weak" value="@{cpv}"/>
                             <input type="number" name="attr_penalty-weakened" value="@{condition-weak}" disabled="true" style="display:none;"/>
-                            &nbsp;Weakened
+                            &nbsp;Weak
                           </span>
                         </div>
                       </div>
